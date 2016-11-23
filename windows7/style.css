@@ -1,1 +1,49 @@
+.navbar, .navbar.navbar-inverse,.navbar.navbar-default{
+min-height:31px;
+height:31px !important;
+background: #fafcfd;
+background: -moz-linear-gradient(top,  #fafcfd 0%, #fdfeff 3%, #f5faff 10%, #e6f0fa 47%, #dce6f4 50%, #dce7f6 87%, #dde9f7 90%, #e4effb 93%, #cddaea 97%, #a0afc3 100%);
+background: -webkit-linear-gradient(top,  #fafcfd 0%,#fdfeff 3%,#f5faff 10%,#e6f0fa 47%,#dce6f4 50%,#dce7f6 87%,#dde9f7 90%,#e4effb 93%,#cddaea 97%,#a0afc3 100%);
+background: linear-gradient(to bottom,  #fafcfd 0%,#fdfeff 3%,#f5faff 10%,#e6f0fa 47%,#dce6f4 50%,#dce7f6 87%,#dde9f7 90%,#e4effb 93%,#cddaea 97%,#a0afc3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafcfd', endColorstr='#a0afc3',GradientType=0 );
+border-radius:0px;
+border-bottom:1px solid #A0AFC3;
+border-top:1px solid #A0AFC3;
+}
 
+.navbar-nav li{
+padding-top:2px;
+padding-bottom:2px;
+}
+
+.navbar-header > .navbar-brand{
+padding-top:4px;
+padding-bottom:4px;
+}
+
+.navbar .navbar-nav li > a,.navbar .navbar-nav li > a{
+padding-top:2px;
+padding-bottom:0px;
+border:1px solid transparent;
+color:#333 !important;
+}
+
+.navbar .navbar-nav li > a:hover,.navbar .navbar-nav li > a:focus{
+background: #fdfeff;
+background: -moz-linear-gradient(top,  #fdfeff 0%, #f8fbfe 5%, #f7fafd 24%, #edf2fa 48%, #d7e4f4 52%, #c1d2e8 95%, #eff4f9 100%);
+background: -webkit-linear-gradient(top,  #fdfeff 0%,#f8fbfe 5%,#f7fafd 24%,#edf2fa 48%,#d7e4f4 52%,#c1d2e8 95%,#eff4f9 100%);
+background: linear-gradient(to bottom,  #fdfeff 0%,#f8fbfe 5%,#f7fafd 24%,#edf2fa 48%,#d7e4f4 52%,#c1d2e8 95%,#eff4f9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfeff', endColorstr='#eff4f9',GradientType=0 );
+border:1px solid #BBCADB !important;
+border-radius:3px;
+}
+
+.navbar-nav li.active > a,.navbar-nav li:not(.active) > a:active{
+background: #c9d4e4;
+background: -moz-linear-gradient(top,  #c9d4e4 0%, #dde8f1 10%, #e1ebf5 14%, #d8e4f1 48%, #cfdbec 52%, #cfdced 100%);
+background: -webkit-linear-gradient(top,  #c9d4e4 0%,#dde8f1 10%,#e1ebf5 14%,#d8e4f1 48%,#cfdbec 52%,#cfdced 100%);
+background: linear-gradient(to bottom,  #c9d4e4 0%,#dde8f1 10%,#e1ebf5 14%,#d8e4f1 48%,#cfdbec 52%,#cfdced 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9d4e4', endColorstr='#cfdced',GradientType=0 );
+border:1px solid #BBCADB;
+border-radius:3px;
+}
