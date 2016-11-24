@@ -372,8 +372,7 @@ legend {
 .navbar,
 .navbar.navbar-inverse,
 .navbar.navbar-default {
-    min-height: 31px;
-    height: 31px !important;
+    min-height: 31px !important;
     background: #fafcfd;
     background-color: white;
     background: -moz-linear-gradient(top, #fafcfd 0%, #fdfeff 3%, #f5faff 10%, #e6f0fa 47%, #dce6f4 50%, #dce7f6 87%, #dde9f7 90%, #e4effb 93%, #cddaea 97%, #a0afc3 100%);
@@ -425,4 +424,8 @@ legend {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c9d4e4', endColorstr='#cfdced', GradientType=0);
     border: 1px solid #BBCADB;
     border-radius: 3px;
+}
+
+.navbar-header .navbar-brand{
+    height:auto !important ;
 }
