@@ -1,2 +1,2 @@
 # Bootstrap-themes
-Simple CSS themes for Bootstrap framework
+Simple <em>Windows</em> based CSS themes for Bootstrap v3 framework
