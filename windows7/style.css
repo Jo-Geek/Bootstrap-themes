@@ -633,6 +633,50 @@ legend {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff5d3', endColorstr='#e6d028',GradientType=0 );
 }
 
+.progress-bar:before {
+    content: ' ';
+    display: block;
+    background: -moz-linear-gradient(left, rgba(255,255,255,0.0) 1px, rgba(255,255,255,0.38) 35px, rgba(255,255,255,0.0) 55px);
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0.0) 1px,rgba(255,255,255,0.38) 35px,rgba(255,255,255,0.0) 55px);
+    background: linear-gradient(to right, rgba(255,255,255,0.0) 1px,rgba(255,255,255,0.38) 35px,rgba(255,255,255,0.0) 55px);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17ffffff', endColorstr='#17ffffff',GradientType=1 );
+    height: 20px;
+    width: 100%;
+    animation: progress-bar 25s linear infinite;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+}
+
+@-moz-keyframes progress-bar {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 5000px 0;
+    }
+}
+
+@-webkit-keyframes progress-bar {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: 5000px;
+    }
+}
+
+@keyframes progress-bar {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 5000px 0;
+    }
+}
+
 .page-header {
     margin-top: 15px;
     border-bottom: 1px solid #fff;
