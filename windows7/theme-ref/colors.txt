@@ -1,0 +1,10 @@
+//Colors for windows 7 interface as picked by screen color picker (c),
+//             https://jvjoseph.blogspot.com/screen-color-picker.html.
+
+a	#3A81DD
+a-hover	#7899FF
+table-cell-border	#D5D5D5
+table-border	#ABADB3
+menu-back	#F5F5F5
+navbar-a-hover-border	#BBCADB
+navbar-a-active-border	#BBCADB
