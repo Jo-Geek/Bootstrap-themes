@@ -590,6 +590,7 @@ legend {
     background: linear-gradient(to bottom, #f3f3f3 0%,#fcfcfc 8%,#efefef 17%,#e6e6e6 25%,#dedede 33%,#dbdbdb 42%,#cacaca 50%,#cecece 75%,#d5d5d5 92%,#eaeaea 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#eaeaea',GradientType=0 );
     border: 1px solid #8C8C8C;
+    box-shadow: inset 10px 0px 10px -5px rgba(0,0,0,0.2),inset -10px 0px 15px 0px rgba(0,0,0,0.1);
 }
 
 .progress-bar-default, .progress-bar {
@@ -598,6 +599,7 @@ legend {
     background: -webkit-linear-gradient(top, #d3efff 0%,#d3efff 8%,#c5e5ff 17%,#a9d3ff 25%,#99c9ff 33%,#91c1ff 42%,#0066e2 50%,#0067e6 67%,#006eec 75%,#017cff 92%,#138dff 100%);
     background: linear-gradient(to bottom, #d3efff 0%,#d3efff 8%,#c5e5ff 17%,#a9d3ff 25%,#99c9ff 33%,#91c1ff 42%,#0066e2 50%,#0067e6 67%,#006eec 75%,#017cff 92%,#138dff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3efff', endColorstr='#138dff',GradientType=0 );
+    box-shadow: inset 20px 0px 20px -5px rgba(0,0,0,0.2),inset -15px 0px 20px -5px rgba(0,0,0,0.2);
 }
 
 
